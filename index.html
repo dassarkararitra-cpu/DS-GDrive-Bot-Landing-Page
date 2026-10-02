@@ -22,7 +22,7 @@
         }
     </script>
 </head>
-<body class="bg-gray-50 text-gray-800 dark:bg-darkBg dark:text-gray-200 font-sans antialiased transition-colors duration-300">
+<body class="bg-gray-50 text-gray-800 dark:bg-darkBg dark:text-gray-200 font-sans antialiased transition-colors duration-300 overflow-x-hidden">
 
     <!-- Navigation Bar -->
     <nav class="fixed w-full z-50 bg-white/80 dark:bg-darkBg/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800 top-0">
@@ -35,16 +35,16 @@
                 </div>
                 <!-- Links (Desktop) -->
                 <div class="hidden md:flex space-x-8 items-center">
-                    <a href="index.html" class="text-sm font-medium text-primary transition-colors">Home</a>
-                    <a href="privacy.html" class="text-sm font-medium hover:text-primary transition-colors">Privacy Policy</a>
-                    <a href="terms.html" class="text-sm font-medium hover:text-primary transition-colors">Terms of Service</a>
-                    <a href="https://t.me/DS_GDrive_bot" target="_blank" class="bg-primary hover:bg-primaryHover text-white px-5 py-2 rounded-full font-medium transition-all shadow-md hover:shadow-lg">
+                    <a href="/" class="text-sm font-medium text-primary transition-colors">Home</a>
+                    <a href="privacy" class="text-sm font-medium hover:text-primary transition-colors">Privacy Policy</a>
+                    <a href="terms" class="text-sm font-medium hover:text-primary transition-colors">Terms of Service</a>
+                    <a href="https://t.me/DS_GDrive_bot" target="_blank" class="bg-primary hover:bg-primaryHover text-white px-5 py-2 rounded-full font-medium transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5">
                         Open Bot
                     </a>
                 </div>
                 <!-- Mobile Menu Button -->
                 <div class="md:hidden flex items-center">
-                    <a href="https://t.me/DS_GDrive_bot" target="_blank" class="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium">Open Bot</a>
+                    <a href="https://t.me/DS_GDrive_bot" target="_blank" class="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium shadow-md">Open Bot</a>
                 </div>
             </div>
         </div>
@@ -52,21 +52,21 @@
 
     <!-- Hero Section -->
     <section class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 text-xs font-semibold tracking-wide uppercase mb-6 border border-blue-200 dark:border-blue-800">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 text-xs font-bold tracking-widest uppercase mb-6 border border-blue-200 dark:border-blue-800 shadow-sm">
             Enterprise Cloud Automation
         </div>
-        <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 dark:text-white tracking-tight mb-6 leading-tight">
-            High-Performance Google Drive Engine <br class="hidden md:block"> Built Directly Inside Telegram
+        <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-400 tracking-tight mb-6 leading-tight">
+            High-Performance Cloud Engine <br class="hidden md:block"> Built Inside Telegram
         </h1>
         <p class="mt-4 max-w-3xl text-lg md:text-xl text-gray-600 dark:text-gray-400 mx-auto mb-10 leading-relaxed">
-            Eliminate double bandwidth usage and local disk overhead. Stream files, clone cloud assets instantly, generate self-destructing download links, and manage Drive permissions directly from your Telegram interface.
+            Eliminate double bandwidth usage and local disk overhead. Stream files, clone cloud assets instantly, generate self-destructing download links, and manage cloud permissions directly from your interface.
         </p>
         <div class="flex flex-wrap justify-center gap-4">
-            <a href="https://t.me/DS_GDrive_bot" target="_blank" class="bg-primary hover:bg-primaryHover text-white text-lg px-8 py-3.5 rounded-full font-semibold transition-all shadow-lg hover:shadow-primary/30 flex items-center gap-2">
+            <a href="https://t.me/DS_GDrive_bot" target="_blank" class="bg-primary hover:bg-primaryHover text-white text-lg px-8 py-3.5 rounded-full font-semibold transition-all shadow-lg hover:shadow-primary/40 hover:-translate-y-1 flex items-center gap-2">
                 <span>Launch Bot on Telegram</span>
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
             </a>
-            <a href="#functionality" class="bg-white dark:bg-darkCard text-gray-900 dark:text-white border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800 text-lg px-8 py-3.5 rounded-full font-semibold transition-all shadow-sm">
+            <a href="#functionality" class="bg-white dark:bg-darkCard text-gray-900 dark:text-white border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800 text-lg px-8 py-3.5 rounded-full font-semibold transition-all shadow-sm hover:-translate-y-1">
                 Explore Core Engine
             </a>
         </div>
@@ -76,123 +76,132 @@
     <section id="functionality" class="py-20 bg-white dark:bg-darkCard/40 border-t border-gray-100 dark:border-gray-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-4xl">Platform Capabilities & Google API Integration</h2>
+                <h2 class="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-4xl">Platform Capabilities & API Integration</h2>
                 <p class="mt-4 text-base md:text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-                    DS GDrive Bot utilizes granular Google Drive REST APIs to deliver secure, encrypted, and modular cloud workflows. Below is a comprehensive breakdown of user workflows and API integration scopes.
+                    DS GDrive Bot utilizes granular REST APIs to deliver secure, encrypted, and modular cloud workflows. Below is a comprehensive breakdown of automated workflows.
                 </p>
             </div>
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 
                 <!-- Feature 1: Authentication -->
-                <div class="bg-gray-50 dark:bg-darkCard rounded-2xl p-8 border border-gray-200 dark:border-gray-700/80 shadow-sm hover:shadow-md transition-shadow">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center text-primary font-bold text-lg">1</span>
+                <div class="group bg-gray-50 dark:bg-darkCard rounded-2xl p-8 border border-gray-200 dark:border-gray-700/80 shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-300 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/5 rounded-bl-full -mr-8 -mt-8 transition-transform group-hover:scale-110"></div>
+                    <div class="flex items-center gap-3 mb-4 relative">
+                        <span class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center text-primary font-bold text-lg shadow-inner">1</span>
                         <h3 class="text-xl font-bold text-gray-900 dark:text-white">Seamless OAuth 2.0 Authentication</h3>
                     </div>
-                    <p class="text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
-                        Users initiate connection by triggering <code>/start</code>. The bot generates a verified Google OAuth consent flow where the user explicitly grants granular Drive access. Once validated, persistent session menus activate instantly without manual re-authorization.
+                    <p class="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed relative">
+                        Users initiate connection by triggering <code>/start</code>. The bot generates a verified Google OAuth consent flow where the user explicitly grants access. Once validated, persistent session menus activate instantly without manual re-authorization.
                     </p>
-                    <div class="bg-white dark:bg-darkBg p-4 rounded-xl border border-gray-200 dark:border-gray-700 font-mono text-xs text-gray-700 dark:text-gray-300">
+                    <div class="bg-white dark:bg-darkBg p-4 rounded-xl border border-gray-200 dark:border-gray-700 font-mono text-xs text-gray-700 dark:text-gray-300 break-words">
                         <span class="text-primary font-semibold">API Utilization:</span> OAuth 2.0 Web Token Exchange & Token Refresh Lifecycle with secure isolated credential persistence.
                     </div>
                 </div>
                 
                 <!-- Feature 2: High-Speed Upload Engine -->
-                <div class="bg-gray-50 dark:bg-darkCard rounded-2xl p-8 border border-gray-200 dark:border-gray-700/80 shadow-sm hover:shadow-md transition-shadow">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center text-primary font-bold text-lg">2</span>
-                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">Real-Time Media & Document Streaming</h3>
+                <div class="group bg-gray-50 dark:bg-darkCard rounded-2xl p-8 border border-gray-200 dark:border-gray-700/80 shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-300 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/5 rounded-bl-full -mr-8 -mt-8 transition-transform group-hover:scale-110"></div>
+                    <div class="flex items-center gap-3 mb-4 relative">
+                        <span class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center text-primary font-bold text-lg shadow-inner">2</span>
+                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">Real-Time Media Streaming</h3>
                     </div>
-                    <p class="text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
-                        Forward documents, photos, audio, videos, or animations directly into the chat. The bot streams binary byte-streams directly into the designated Google Drive folder with live progress metrics (current speed, average speed, elapsed time, and ETA).
+                    <p class="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed relative">
+                        Forward documents, photos, audio, videos, or animations directly into the chat. The bot streams binary byte-streams directly into the designated secure cloud folder with live progress metrics.
                     </p>
-                    <div class="bg-white dark:bg-darkBg p-4 rounded-xl border border-gray-200 dark:border-gray-700 font-mono text-xs text-gray-700 dark:text-gray-300">
-                        <span class="text-primary font-semibold">API Utilization:</span> <code>POST /upload/drive/v3/files?uploadType=resumable</code> for non-blocking buffered chunk transmission.
+                    <div class="bg-white dark:bg-darkBg p-4 rounded-xl border border-gray-200 dark:border-gray-700 font-mono text-xs text-gray-700 dark:text-gray-300 break-all">
+                        <span class="text-primary font-semibold">API Utilization:</span> <code>POST /upload/drive/v3/files?uploadType=resumable</code> for non-blocking buffered transmission.
                     </div>
                 </div>
 
                 <!-- Feature 3: Server-Side Instant Cloning -->
-                <div class="bg-gray-50 dark:bg-darkCard rounded-2xl p-8 border border-gray-200 dark:border-gray-700/80 shadow-sm hover:shadow-md transition-shadow">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center text-primary font-bold text-lg">3</span>
-                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">Zero-Bandwidth Drive Duplication</h3>
+                <div class="group bg-gray-50 dark:bg-darkCard rounded-2xl p-8 border border-gray-200 dark:border-gray-700/80 shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-300 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/5 rounded-bl-full -mr-8 -mt-8 transition-transform group-hover:scale-110"></div>
+                    <div class="flex items-center gap-3 mb-4 relative">
+                        <span class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center text-primary font-bold text-lg shadow-inner">3</span>
+                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">Zero-Bandwidth Duplication</h3>
                     </div>
-                    <p class="text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
-                        When users submit public Google Drive links, the bot bypasses network downlinking entirely. It leverages direct server-to-server duplication to clone the asset directly into the user's selected directory in seconds.
+                    <p class="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed relative">
+                        When users submit public cloud links, the bot bypasses network downlinking entirely. It leverages direct server-to-server duplication to clone the asset directly into the user's selected directory in seconds.
                     </p>
-                    <div class="bg-white dark:bg-darkBg p-4 rounded-xl border border-gray-200 dark:border-gray-700 font-mono text-xs text-gray-700 dark:text-gray-300">
-                        <span class="text-primary font-semibold">API Utilization:</span> <code>POST https://www.googleapis.com/drive/v3/files/{fileId}/copy</code> bypassing server network interfaces.
+                    <!-- break-all ensures long URL wraps nicely on mobile -->
+                    <div class="bg-white dark:bg-darkBg p-4 rounded-xl border border-gray-200 dark:border-gray-700 font-mono text-xs text-gray-700 dark:text-gray-300 break-all">
+                        <span class="text-primary font-semibold">API Utilization:</span> <code>POST https://www.googleapis.com/drive/v3/files/{fileId}/copy</code> bypassing external network interfaces.
                     </div>
                 </div>
 
                 <!-- Feature 4: Internal Server Fast-Path -->
-                <div class="bg-gray-50 dark:bg-darkCard rounded-2xl p-8 border border-gray-200 dark:border-gray-700/80 shadow-sm hover:shadow-md transition-shadow">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center text-primary font-bold text-lg">4</span>
-                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">Secure Internal Direct Routing</h3>
+                <div class="group bg-gray-50 dark:bg-darkCard rounded-2xl p-8 border border-gray-200 dark:border-gray-700/80 shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-300 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/5 rounded-bl-full -mr-8 -mt-8 transition-transform group-hover:scale-110"></div>
+                    <div class="flex items-center gap-3 mb-4 relative">
+                        <span class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center text-primary font-bold text-lg shadow-inner">4</span>
+                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">Secure Internal Routing</h3>
                     </div>
-                    <p class="text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
-                        Submitting platform-generated temporary links triggers an authenticated internal fast-path. The file is seamlessly cloned from the internal storage pool into the user's private drive via authorized permission leasing.
+                    <p class="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed relative">
+                        Submitting platform-generated temporary links triggers an authenticated internal fast-path. The file is seamlessly cloned from a secure content distribution network directly into the user's private space.
                     </p>
-                    <div class="bg-white dark:bg-darkBg p-4 rounded-xl border border-gray-200 dark:border-gray-700 font-mono text-xs text-gray-700 dark:text-gray-300">
-                        <span class="text-primary font-semibold">API Utilization:</span> Dynamically leases reader permissions via <code>drive.permissions.create</code> and executes atomic internal duplication.
+                    <div class="bg-white dark:bg-darkBg p-4 rounded-xl border border-gray-200 dark:border-gray-700 font-mono text-xs text-gray-700 dark:text-gray-300 break-words">
+                        <span class="text-primary font-semibold">API Utilization:</span> Dynamically leases reader permissions via <code>drive.permissions.create</code> and executes atomic backend duplication.
                     </div>
                 </div>
 
                 <!-- Feature 5: Signed Temporary Links -->
-                <div class="bg-gray-50 dark:bg-darkCard rounded-2xl p-8 border border-gray-200 dark:border-gray-700/80 shadow-sm hover:shadow-md transition-shadow">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center text-primary font-bold text-lg">5</span>
+                <div class="group bg-gray-50 dark:bg-darkCard rounded-2xl p-8 border border-gray-200 dark:border-gray-700/80 shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-300 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/5 rounded-bl-full -mr-8 -mt-8 transition-transform group-hover:scale-110"></div>
+                    <div class="flex items-center gap-3 mb-4 relative">
+                        <span class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center text-primary font-bold text-lg shadow-inner">5</span>
                         <h3 class="text-xl font-bold text-gray-900 dark:text-white">Self-Destructing 24-Hour Links</h3>
                     </div>
-                    <p class="text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
-                        Users can generate direct HTTPS secure download links without exposing their Google credentials or account identities. Links are cryptographically signed with MD5 hashing, feature high-speed CDN routing, and automatically purge after 24 hours.
+                    <p class="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed relative">
+                        Users can generate direct HTTPS secure download links without exposing their cloud credentials or account identities. Links are cryptographically signed with MD5 hashing, feature high-speed routing, and automatically purge after 24 hours.
                     </p>
-                    <div class="bg-white dark:bg-darkBg p-4 rounded-xl border border-gray-200 dark:border-gray-700 font-mono text-xs text-gray-700 dark:text-gray-300">
-                        <span class="text-primary font-semibold">Architecture:</span> Automated daemon sweeps expired database tokens and securely invokes <code>rclone deletefile</code>.
+                    <div class="bg-white dark:bg-darkBg p-4 rounded-xl border border-gray-200 dark:border-gray-700 font-mono text-xs text-gray-700 dark:text-gray-300 break-words">
+                        <span class="text-primary font-semibold">Architecture:</span> Automated daemon sweeps expired database tokens and securely executes internal file purge protocols.
                     </div>
                 </div>
 
                 <!-- Feature 6: Drive Explorer & Privacy Controls -->
-                <div class="bg-gray-50 dark:bg-darkCard rounded-2xl p-8 border border-gray-200 dark:border-gray-700/80 shadow-sm hover:shadow-md transition-shadow">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center text-primary font-bold text-lg">6</span>
-                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">Drive Explorer & Dynamic Privacy</h3>
+                <div class="group bg-gray-50 dark:bg-darkCard rounded-2xl p-8 border border-gray-200 dark:border-gray-700/80 shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-300 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/5 rounded-bl-full -mr-8 -mt-8 transition-transform group-hover:scale-110"></div>
+                    <div class="flex items-center gap-3 mb-4 relative">
+                        <span class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center text-primary font-bold text-lg shadow-inner">6</span>
+                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">Cloud Explorer & Privacy</h3>
                     </div>
-                    <p class="text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
-                        A dynamic hierarchical browser within Telegram. Create directories, configure default upload destinations, inline-rename assets, and toggle privacy between <strong>Public (Anyone with link)</strong> and <strong>Private (Restricted)</strong> with real-time UI indicator badges.
+                    <p class="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed relative">
+                        A dynamic hierarchical browser within Telegram. Create directories, configure default upload destinations, inline-rename assets, and toggle privacy between <strong>Public (Anyone with link)</strong> and <strong>Private (Restricted)</strong>.
                     </p>
-                    <div class="bg-white dark:bg-darkBg p-4 rounded-xl border border-gray-200 dark:border-gray-700 font-mono text-xs text-gray-700 dark:text-gray-300">
-                        <span class="text-primary font-semibold">API Utilization:</span> <code>files.list</code>, <code>files.create</code> (folder MIME type), and dynamic <code>permissions.create / delete</code>.
+                    <div class="bg-white dark:bg-darkBg p-4 rounded-xl border border-gray-200 dark:border-gray-700 font-mono text-xs text-gray-700 dark:text-gray-300 break-words">
+                        <span class="text-primary font-semibold">API Utilization:</span> <code>files.list</code>, <code>files.create</code>, and dynamic <code>permissions.create / delete</code>.
                     </div>
                 </div>
 
                 <!-- Feature 7: Direct Cloud-to-Telegram Stream -->
-                <div class="bg-gray-50 dark:bg-darkCard rounded-2xl p-8 border border-gray-200 dark:border-gray-700/80 shadow-sm hover:shadow-md transition-shadow">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center text-primary font-bold text-lg">7</span>
-                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">Direct Drive-to-Telegram Downlink</h3>
+                <div class="group bg-gray-50 dark:bg-darkCard rounded-2xl p-8 border border-gray-200 dark:border-gray-700/80 shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-300 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/5 rounded-bl-full -mr-8 -mt-8 transition-transform group-hover:scale-110"></div>
+                    <div class="flex items-center gap-3 mb-4 relative">
+                        <span class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center text-primary font-bold text-lg shadow-inner">7</span>
+                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">Direct Cloud-to-Telegram Downlink</h3>
                     </div>
-                    <p class="text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
-                        Inspect stored files and send them straight back to Telegram. Assets stream directly from Google Drive into native media formats (compressed Photos, Video players, or Documents) via customized binary stream buffers up to Telegram's 2GB file limit.
+                    <p class="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed relative">
+                        Inspect stored files and send them straight back to Telegram. Assets stream directly from cloud storage into native media formats (compressed Photos, Video players, or Documents) via customized binary stream buffers.
                     </p>
-                    <div class="bg-white dark:bg-darkBg p-4 rounded-xl border border-gray-200 dark:border-gray-700 font-mono text-xs text-gray-700 dark:text-gray-300">
-                        <span class="text-primary font-semibold">API Utilization:</span> <code>GET /drive/v3/files/{fileId}?alt=media</code> piped into a virtual <code>io.IOBase</code> stream pointer.
+                    <div class="bg-white dark:bg-darkBg p-4 rounded-xl border border-gray-200 dark:border-gray-700 font-mono text-xs text-gray-700 dark:text-gray-300 break-all">
+                        <span class="text-primary font-semibold">API Utilization:</span> <code>GET /drive/v3/files/{fileId}?alt=media</code> piped into a virtual <code>io.IOBase</code> stream.
                     </div>
                 </div>
 
                 <!-- Feature 8: Quota & Trash Management -->
-                <div class="bg-gray-50 dark:bg-darkCard rounded-2xl p-8 border border-gray-200 dark:border-gray-700/80 shadow-sm hover:shadow-md transition-shadow">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center text-primary font-bold text-lg">8</span>
-                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">Analytics, Storage Quota & Trash Recovery</h3>
+                <div class="group bg-gray-50 dark:bg-darkCard rounded-2xl p-8 border border-gray-200 dark:border-gray-700/80 shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-300 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/5 rounded-bl-full -mr-8 -mt-8 transition-transform group-hover:scale-110"></div>
+                    <div class="flex items-center gap-3 mb-4 relative">
+                        <span class="w-10 h-10 rounded-xl bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center text-primary font-bold text-lg shadow-inner">8</span>
+                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">Analytics & Storage Quota</h3>
                     </div>
-                    <p class="text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
-                        Run deep Drive audits detailing total quota, free capacity, file distributions, and largest stored assets. Includes an integrated Trash Bin interface for selective one-click file restoration, permanent deletion, or bulk empty operations.
+                    <p class="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed relative">
+                        Run deep cloud audits detailing total quota, free capacity, file distributions, and largest stored assets. Includes an integrated Trash Bin interface for selective one-click file restoration or permanent deletion.
                     </p>
-                    <div class="bg-white dark:bg-darkBg p-4 rounded-xl border border-gray-200 dark:border-gray-700 font-mono text-xs text-gray-700 dark:text-gray-300">
-                        <span class="text-primary font-semibold">API Utilization:</span> <code>about.get(fields="storageQuota")</code>, <code>files.update(trashed=false)</code>, and <code>files.emptyTrash</code>.
+                    <div class="bg-white dark:bg-darkBg p-4 rounded-xl border border-gray-200 dark:border-gray-700 font-mono text-xs text-gray-700 dark:text-gray-300 break-words">
+                        <span class="text-primary font-semibold">API Utilization:</span> <code>about.get(fields="storageQuota")</code>, <code>files.update(trashed=false)</code>.
                     </div>
                 </div>
 
@@ -205,14 +214,14 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="flex items-center mb-4 md:mb-0">
-                    <img src="36735.png" alt="DS GDrive Bot Logo" class="h-8 w-8 mr-2 rounded-full grayscale opacity-70">
+                    <img src="36735.png" alt="DS GDrive Bot Logo" class="h-8 w-8 mr-2 rounded-full grayscale opacity-70 hover:grayscale-0 transition-all">
                     <span class="text-gray-500 dark:text-gray-400 font-medium tracking-tight">DS GDrive Bot Engine</span>
                 </div>
                 
                 <div class="flex space-x-6 mb-4 md:mb-0 text-sm">
-                    <a href="index.html" class="text-gray-500 hover:text-primary dark:hover:text-primary transition-colors">Home</a>
-                    <a href="privacy.html" class="text-gray-500 hover:text-primary dark:hover:text-primary transition-colors">Privacy Policy</a>
-                    <a href="terms.html" class="text-gray-500 hover:text-primary dark:hover:text-primary transition-colors">Terms of Service</a>
+                    <a href="/" class="text-gray-500 hover:text-primary dark:hover:text-primary transition-colors">Home</a>
+                    <a href="privacy" class="text-gray-500 hover:text-primary dark:hover:text-primary transition-colors">Privacy Policy</a>
+                    <a href="terms" class="text-gray-500 hover:text-primary dark:hover:text-primary transition-colors">Terms of Service</a>
                 </div>
             </div>
             
